@@ -1,8 +1,8 @@
 # python_coding_challenge
 
-Create a Python function that calculates and returns the area of a circle when given its radius as a parameter.
-Modify the function to handle negative radii gracefully and return an error message. (Hint: use the assert statement) 
+Write a Python function that converts a temperature in Celsius to Fahrenheit. The formula for this conversion is: Fahrenheit = (Celsius * 9/5) + 32.
 
-Create a Python script that prompts the user to input a radius and then displays the calculated area. (Hint: use the input function) 
+Modify the function to handle temperature values in different temperature scales (e.g., Kelvin) (Hint: use a second parameter to specify the scale).
 
-Enhance the function to round the calculated area to a specified number of decimal places. (Hint: use the round function) 
+Create a command-line tool that allows users to input a temperature in Celsius and get the corresponding temperature in Fahrenheit. (Hint: use the input() function to get user input). 
+
