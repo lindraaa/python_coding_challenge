@@ -1,9 +1,16 @@
-def calculate_circle_area(radius):
-    assert radius > 0
-    total = 3.141559*(radius**2)
-    return total
+def celsius_to_fahrenheit(celcius, conv):
+    if conv == "fahrenheit":
+        fahrenheit = (celcius * 9/5) + 32
+        print("The fahrenheit is ", fahrenheit)
+      
+    elif conv =="kelvin":
+         kelvin = celcius + 273.15
+         print("The kelvin is ", kelvin)
+        
+    else:
+        print("Error")
 
+num = float(input("Enter the celcius: "))
+ans = input("Enter the conversion(fahrenheit,kelvin) ")
 
-
-num = float(input("Enter the radius of a circle: "))
-print("The area is --> ", round(calculate_circle_area(num)))
+celsius_to_fahrenheit(num,ans)
