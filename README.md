@@ -1,8 +1,9 @@
 # python_coding_challenge
 
-Write a Python function that converts a temperature in Celsius to Fahrenheit. The formula for this conversion is: Fahrenheit = (Celsius * 9/5) + 32.
 
-Modify the function to handle temperature values in different temperature scales (e.g., Kelvin) (Hint: use a second parameter to specify the scale).
 
-Create a command-line tool that allows users to input a temperature in Celsius and get the corresponding temperature in Fahrenheit. (Hint: use the input() function to get user input). 
+Create a Python function that finds and returns the maximum number among a list of integers.
 
+Modify the function to handle an empty list gracefully and return an appropriate message or value. (Hint: you'll need a new conditional for this)
+
+Find and return both the maximum and minimum numbers in a single function call. (Hint: Python has a built in function called min() that does the opposite of max()) 
