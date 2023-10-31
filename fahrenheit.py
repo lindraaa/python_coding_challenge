@@ -9,7 +9,6 @@ def celsius_to_fahrenheit(celcius, conv):
         
     else:
         print("Error")
-
 num = float(input("Enter the celcius: "))
 ans = input("Enter the conversion(fahrenheit,kelvin) ")
 
